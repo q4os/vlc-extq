@@ -7,7 +7,7 @@ Standards-Version: 3.8.4
 
 ##?vlc-plugin-notify,..
 ##codecs - see ipcodecs-extq deps
-#MCODECS="va-driver-all, ffmpeg, twolame, libaacs0, libfaad2, libfaac0t64 | libfaac0, libmp3lame0, libdvdnav4, libdvdread8t64 | libdvdread8 | libdvdread7 | libdvdread4, libbluray2, libcrystalhd3, libopencore-amrwb0, libopencore-amrnb0"
+#MCODECS="va-driver-all, ffmpeg, twolame, libaacs0, libfaad2, libfaac0t64 | libfaac0, libmp3lame0, libdvdnav4, libdvdread8t64 | libdvdread8 | libdvdread7 | libdvdread4, libbluray2, libopencore-amrwb0, libopencore-amrnb0"
 #GCODECS="gstreamer0.10-plugins-good, gstreamer0.10-plugins-bad, gstreamer0.10-plugins-ugly, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-libav" #loads gtk deps
 #PK_RECOMMENDS="$MCODECS" ##?$GCODECS
 
@@ -15,7 +15,7 @@ Package: vlc-extq
 Architecture: all
 Pre-Depends: vlc
 Depends: q4os-desktop (>= 4.0)
-Recommends: va-driver-all, ffmpeg, twolame, libaacs0, libfaad2, libfaac0t64 | libfaac0, libmp3lame0, libdvdnav4, libdvdread8t64 | libdvdread8 | libdvdread7 | libdvdread4, libbluray2, libcrystalhd3, libopencore-amrwb0, libopencore-amrnb0
+Recommends: va-driver-all, ffmpeg, twolame, libaacs0, libfaad2, libfaac0t64 | libfaac0, libmp3lame0, libdvdnav4, libdvdread8t64 | libdvdread8 | libdvdread7 | libdvdread4, libbluray2, libopencore-amrwb0, libopencore-amrnb0
 Conflicts: q4os-vlc
 Provides:
 Replaces:
